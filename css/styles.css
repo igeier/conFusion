@@ -28,6 +28,8 @@
     color: #0f0f0f;
 }
 
+
+/*side padding/margins of entire page*/
 body>div{
     padding: 0px 70px 0px 70px;
 }
@@ -37,6 +39,7 @@ body{
     z-index: 0;
 }
 
+/*navbar, reserve table link*/
 .navbar-dark{
     background-color: #512DA8;
 }
@@ -45,10 +48,28 @@ a:link{
     text-decoration: none;
 }
 
+
+/*tabs borders*/
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+/*carousel*/
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
     
